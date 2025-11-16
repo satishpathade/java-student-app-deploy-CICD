@@ -1,6 +1,11 @@
 pipeline {
     agent any
 
+    tools {
+        maven 'Maven3'
+    }
+
+
     environment {
         SERVER_IP    = '3.110.189.28'
         SSH_CRED_ID  = 'node-app-key'
