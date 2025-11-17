@@ -18,40 +18,9 @@ This gives a clean, automated CI/CD process with zero manual deployment steps.
 
 ---
 
-## Architecture Overview
+## Architecture 
 
-
-### **1. Repository Update**
-A developer pushes new code to the GitHub repository.
-
-### **2. GitHub Webhook Trigger**
-GitHub sends a webhook request to Jenkins.  
-This automatically starts the pipeline without manual action.
-
-### **3. Checkout Code**
-Jenkins pulls the latest code from the `main` branch.
-
-### **4. Build with Maven**
-Jenkins uses Maven to:
-- Clean previous builds  
-- Install dependencies  
-- Compile Java code  
-- Run lifecycle goals  
-- Generate a WAR file in the `target/` directory  
-
-### **5. Upload WAR to EC2**
-Jenkins copies the WAR file to the EC2 instance using SCP and SSH.
-
-### **6. Deploy on Tomcat**
-On EC2:
-- Tomcat stops  
-- Old WAR is removed  
-- New WAR is placed in the `webapps` folder  
-- Tomcat starts again  
-
-### **7. Application Live**
-The updated Java application becomes available instantly.
-
+**Push → GitHub Webhook → Jenkins → Maven Build → EC2 (Ubuntu) → Tomcat → Java App**
 ---
 
 ## Tech Stack
@@ -76,7 +45,6 @@ This file contains the complete pipeline used for building and deploying the Jav
 ---
 
 ## Author
-
 **Satish Pathade**  
 AWS Cloud & DevOps Engineer 
 
