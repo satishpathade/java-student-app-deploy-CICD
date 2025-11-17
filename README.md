@@ -4,7 +4,7 @@ This repository contains a complete CI/CD pipeline that automates the process of
 
 ---
 
-## 🚀 What This Pipeline Does
+## What This Pipeline Does
 
 1. GitHub Webhook detects a push and triggers Jenkins automatically  
 2. Jenkins pulls the latest code  
@@ -54,7 +54,7 @@ The updated Java application becomes available instantly.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Category | Technologies |
 |---------|------------------------|
@@ -69,13 +69,13 @@ The updated Java application becomes available instantly.
 
 ---
 
-## 📄 Jenkinsfile (Full Pipeline)
+## Jenkinsfile (Full Pipeline)
 **[jenkinsfile](jenkinsfile)**
 This file contains the complete pipeline used for building and deploying the Java application.
 
 ---
 
-## 👤 Author
+## Author
 
 **Satish Pathade**  
 AWS Cloud & DevOps Engineer 
