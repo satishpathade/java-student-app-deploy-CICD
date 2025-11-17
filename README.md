@@ -1,5 +1,4 @@
-
-# Java Application CI/CD Pipeline using Jenkins, Maven, SSH and AWS EC2
+# Java Application CI/CD Pipeline using Jenkins, Maven
 
 This repository contains a complete CI/CD pipeline that automates the process of building and deploying an application using Jenkins, Maven, and an EC2 server running Tomcat. The goal is to remove manual steps and create a smooth, repeatable deployment workflow.
 
@@ -79,9 +78,8 @@ This file contains the complete pipeline used for building and deploying the Jav
 ## 👤 Author
 
 **Satish Pathade**  
-• Cloud & DevOps Engineer
+AWS Cloud & DevOps Engineer 
 
-[![GitHub](https://img.shields.io/badge/GitHub-satishpathade-181717?style=for-the-badge&logo=github)](https://github.com/satishpathade)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Satish_Pathade-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/satish-pathade)
-[![Email](https://img.shields.io/badge/Email-pathadesatish0@gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:pathadesatish0@gmail.com)
-
+- GitHub: https://github.com/satishpathade  
+- LinkedIn: https://www.linkedin.com/in/satish-pathade  
+- Email: pathadesatish0@gmail.com
