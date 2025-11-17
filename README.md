@@ -20,7 +20,8 @@ This gives a clean, automated CI/CD process with zero manual deployment steps.
 
 ## Architecture 
 
-**Push → GitHub Webhook → Jenkins → Maven Build → EC2 (Ubuntu) → Tomcat → Java App**
+**push → GitHub Webhook → Jenkins →  Maven Build → EC2 (Ubuntu) → Tomcat → Java App**
+
 ---
 
 ## Tech Stack
