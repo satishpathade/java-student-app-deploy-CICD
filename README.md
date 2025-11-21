@@ -22,6 +22,11 @@ This gives a clean, automated CI/CD process with zero manual deployment steps.
 
 **push → GitHub Webhook → Jenkins →  Maven Build → EC2 (Ubuntu) → Tomcat → Java App**
 
+<<<<<<< HEAD
+=======
+![Architecture java-app](img/javaapp-CICD.png)
+
+>>>>>>> 7a8644d (update file)
 ---
 
 ## Tech Stack
